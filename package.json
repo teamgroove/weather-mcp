@@ -1,13 +1,21 @@
 {
-  "name": "mcp-weather-server",
+  "name": "mcp-weather",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "weather-mcp": "node index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "keywords": ["mcp", "weather", "claude", "ai"],
+  "keywords": [
+    "mcp",
+    "weather",
+    "claude",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "description": "A simple MCP server that provides weather information",

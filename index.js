@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { McpServer, StdioTransport } from '@modelcontextprotocol/sdk';
 import axios from 'axios';
 
